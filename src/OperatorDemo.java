@@ -1,11 +1,8 @@
 public class OperatorDemo {
     public static void main(String[] args) {
-        int a = 3, b = 5;
-
-        System.out.println("jumlah = " + (a+b));
-        System.out.println("selisih = " + (a-b));
-        System.out.println("kali = " + (a*b));
-        System.out.println("bagi = " + (a/b));
-        System.out.println("sisa bagi = " + (a%b));
+       int nilaiujian = 80;
+       boolean hadir = true;
+       System.out.println("Lulus (>=75): " + (nilaiujian >= 75));
+       System.out.println("Lulus dan Hadir: " + (nilaiujian >= 75 && hadir));
     }
 }
