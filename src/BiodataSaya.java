@@ -1,9 +1,9 @@
 public class BiodataSaya {
     public static void main(String[] args) {
         //ini biodata saya
-        System.out.println("Nama : Muhammad Khalil");
-        System.out.println("NIM : 2025573010111");
-        System.out.println("Pogram Studi : Teknik Informatika");
+        System.out.print("Muhammad Khalil - ");
+        System.out.print("2025573010111 - ");
+        System.out.print("Teknik Informatika");
         /*hanya ini
         biodata saya
          */
