@@ -1,21 +1,21 @@
 
 public class Ifdemo {
     public static void main(String[] args){
-        int nilai = 75;
-        char huruf;
+       int hari =3;
 
-        if(nilai >= 75 ){
-            huruf= 'A';
-        }
-        else if(nilai>=70){
-            huruf= 'B';
-        }
-        else if (nilai>=55){
-            huruf= 'C';
-        }
-        else {
-            huruf = 'E';
-        }
-        System.out.println("Nilai hruf = " + huruf);
+       switch(hari){
+           case 1:
+               System.out.println("senin");
+               break;
+           case 2:
+               System.out.println("selasa");
+               break;
+           case 3:
+               System.out.println("rabu");
+               break;
+           default:
+               System.out.println("hari tidak dikenali");
+       }
+
     }
 }
