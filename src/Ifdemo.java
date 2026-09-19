@@ -4,7 +4,10 @@ public class Ifdemo {
         int nilai = 60;
 
         if(nilai >= 75){
-            System.out.println("Anda Lulus");
+            System.out.println("Anda LULUS");
+        }
+        else {
+            System.out.println("Anda TIDAK LULUS");
         }
     }
 }
